@@ -1,4 +1,5 @@
 print("hello")
-ls=[1,2,3,"h","gf"]
-ls[0]=3
-print(ls[4]) 
+
+items = [1, 2, 3, "h", "gf"]
+items[0] = 3
+print(items[4])
