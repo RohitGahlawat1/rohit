@@ -13,6 +13,6 @@ def test_squares_non_positive_n():
     assert sum_module.squares(0) == []
 
 
-def test_name_prints_each_square(capsys):
-    sum_module.name(3)
+def test_print_squares_prints_each_square(capsys):
+    sum_module.print_squares(3)
     assert capsys.readouterr().out == "1:1\n2:4\n3:9\n"

@@ -1,7 +1,7 @@
 def build_list():
-    ls = [1, 2, 3, "h", "gf"]
-    ls[0] = 3
-    return ls
+    items = [1, 2, 3, "h", "gf"]
+    items[0] = 3
+    return items
 
 
 def main():
