@@ -1,5 +1,13 @@
-print("hello")
+def build_list():
+    ls = [1, 2, 3, "h", "gf"]
+    ls[0] = 3
+    return ls
 
-items = [1, 2, 3, "h", "gf"]
-items[0] = 3
-print(items[-1])
+
+def main():
+    print("hello")
+    print(build_list()[4])
+
+
+if __name__ == "__main__":
+    main()
