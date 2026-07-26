@@ -1,6 +1,7 @@
-def name():
-    n=5
-    for i in range(1,n+1):
-        print(f"{i}:{i*i}")
+def print_squares(n):
+    for i in range(1, n + 1):
+        print(f"{i}:{i * i}")
 
-name()        
+
+if __name__ == "__main__":
+    print_squares(5)
